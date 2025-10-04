@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: my-namespace
+  labels:
+    name: my-namespace
+    environment: development
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: my-namespace1
+  labels:
+    name: my-namespace1
+    environment: production
+
+    
